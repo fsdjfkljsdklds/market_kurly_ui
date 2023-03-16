@@ -23,6 +23,7 @@ class DetailScreen extends StatelessWidget {
           style: GoogleFonts.nanumGothic(
             fontSize: 16.0,
             color: Colors.black,
+            fontWeight: FontWeight.bold,
           ),
         ),
       ),
@@ -40,7 +41,8 @@ class DetailScreen extends StatelessWidget {
                 color: kPrimaryColor,
                 press: () {},
               ),
-            )
+            ),
+            SizedBox(height: 30),
           ],
         ),
       ),
