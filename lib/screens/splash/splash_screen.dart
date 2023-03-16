@@ -20,7 +20,7 @@ class SplashScreen extends StatelessWidget {
                 child: Text(
                   "Kurly",
                   style:
-                      GoogleFonts.pacifico(fontSize: 28, color: Colors.white),
+                      GoogleFonts.pacifico(fontSize: 58, color: Colors.white),
                 ),
               ),
             ),

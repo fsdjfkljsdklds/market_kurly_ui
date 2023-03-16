@@ -51,6 +51,7 @@ class CategoryScreen extends StatelessWidget {
                 (index) => ExtendsIconTextCard(
                   item: listCategoryMenuList[index],
                 ),
+
               ),
             ),
           ),

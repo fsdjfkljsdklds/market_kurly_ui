@@ -53,8 +53,9 @@ class _ExtendsIconTextCardState extends State<ExtendsIconTextCard> {
                     onPressed: () {
                       toggle();
                     },
+                    color: Colors.black,
                     icon: SvgPicture.asset(
-                      "asset/icons/down-arrow.svg",
+                      "assets/icons/down-arrow.svg",
                       color: Colors.grey,
                     ),
                   ),
